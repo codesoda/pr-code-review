@@ -1,6 +1,7 @@
 ---
 name: pr-code-review
 description: Code review a GitHub pull request
+disable-model-invocation: true
 allowed-tools:
   - Bash(gh issue view:*)
   - Bash(gh search:*)
